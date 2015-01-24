@@ -95,6 +95,9 @@ body {
   font-size: 14px;
   line-height: 24px;
 }
+.p1 {
+ color: white;
+}
 .main-container,
 .footer-container {
   max-width: 1580px;
