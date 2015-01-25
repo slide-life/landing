@@ -62,7 +62,6 @@
 		
 			
 		
-		
 			
 			
 		
@@ -94,29 +93,40 @@
 					
 			
 					
-			<a id="errorpage" class="in-page-link"></a>
+			<a id="securitynote" class="in-page-link"></a>
 			
-			<section class="error-page fullscreen-element">
-			
-				<div class="container vertical-align">
+			<section class="large-pad dark-bg text-hero-2">
+				<div class="container">
 					<div class="row">
-						<div class="col-sm-12 text-center">
-							
-							<h1 class="text-white">404 - Man overboard!</h1>
-							<p class="text-white super-lead">Something went wrong there, but we're working on it.</p>
-							<a href="#" class="btn btn-white">Back to safety</a>
-							<a href="#" class="btn btn-white">Report to crew</a>
+						<div class="col-md-8 col-md-offset-2 col-sm-12">
+							<h1 class="text-white text-center">Security Overview</h1>
+							<p class="super-lead text-white">
+		
+		
+		
+		
+		
+		
+		
+		</p><p class="p1"><span class="s1 vdw"><b>Data Storage</b></span></p><p class="p1"><span class="s1">When you create a user account, you generate a local AES-256 key and a 512-bit RSA pair. &nbsp;You then publish your RSA public key on your profile. Both your RSA private key and AES-256 key are stored locally on your trusted devices, and never on our servers. Even when you sync these keys between trusted devices, we cannot access them. (This is because we use the same protocols to sync your keys between devices that we use to send data back-and-forth between users and vendors.) Even the data stored on your local devices is totally encrypted, and must be decrypted each time you view it.&nbsp;</span></p><p class="p1 vdw"><span class="s1">
+		
+		
+		
+		
+		
+		
+		
+		</span></p><p class="p1"><span class="s1">It’s important to note that you begin your journey with slide by redeeming your username (phone number) via text message. Verifying your number allows us to associate it with your public key, and provides proof of your identity to potential slide vendors.&nbsp;</span></p><p class="p1"><b>Data Transfer</b></p><p class="p1">When creating a data request, a slide vendor (more generally, an "actor") generates its own AES-256 key which is encrypted with the public key associated with your mobile device. Only your RSA private key can thus be used decrypt the actor's AES-256 key. &nbsp;This RSA public key handshake creates a reusable channel between your trusted devices and the actor that only you and the parties you grant explicit permission to can access. This channel is then used to enable all future secure slide transfers.</p><p class="p1"><b>If you have any queries, </b>please don't hesitate to reach out to our head of security, Matt Neary at matt@slide.life.&nbsp;</p><p class="p1"><br></p><p class="p1"><span class="s1"><br></span></p> 
 						</div>
 					</div>
 				</div>
-				
 			</section>
 			
 			<a id="signup" class="in-page-link"></a>
 			
 			<section class="signup-divider overlay">
 				<div class="background-image-holder parallax-background overlay">
-					<img alt="Slide Background" class="background-image" src="img/rustic3.jpg">
+					<img alt="Slide Background" class="background-image" src="img/rustic2.jpg">
 				</div>
 			
 				<div class="container">
